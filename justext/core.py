@@ -174,6 +174,9 @@ class ParagraphMaker(ContentHandler):
                 self.paragraph.append_text(' ')
             elif name == 'a':
                 self.link = True
+                self.paragraph.append_text(' ')
+            elif name == 'strong':
+                self.paragraph.append_text(' ')
             self.paragraph.tags_count += 1
 
     def endElementNS(self, name, qname):
