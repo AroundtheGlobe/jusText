@@ -28,7 +28,8 @@ setup(
     author_email="jan.pomikalek@gmail.com",
     maintainer="Michal Belica",
     maintainer_email="miso.belica@gmail.com",
-    url="https://github.com/miso-belica/jusText",
+    url="https://github.com/AroundtheGlobe/jusText",
+    download_url='https://www.github.com/AroundtheGlobe/jusText/tarball/master',
     license="The BSD 2-Clause License",
     install_requires=[
         'lxml >= 4.4.2',
